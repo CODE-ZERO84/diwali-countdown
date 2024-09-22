@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #b33c3c; */
+    /* background-image: url('"diwali_stock_2024.jpg"'); */
+    background-size: cover;
+}
+
+.countdown-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#day div {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 2em;
+    color: #b6d11d;
+}
+#hour div {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 2em;
+    color: #d47d13;
+}
+#minute div {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 2em;
+    color: #15c3a9;
+}
+#second div {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 2em;
+    color: #211b8f;
+}
+
+
